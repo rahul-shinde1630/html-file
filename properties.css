@@ -1,0 +1,207 @@
+body{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+    display: inline-block; 
+    
+}
+a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    padding:1px 20px 1px ;
+    font-size: 20px;
+}
+a:hover{
+    color: orangered;
+}
+li{
+    display: inline-block;
+    color: white;
+ 
+}
+.navbar h1{
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    left: 60px;
+    color: rgb(17, 17, 17);
+}
+.navbar{
+    width: 100%;
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+    background-color: white;
+}
+.nav{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    margin-left: 500px;
+}
+.visit{
+    padding: 12px 50px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+ }
+.visit:hover{
+    background-color: rgb(32, 30, 30);
+    color:orangered;
+    
+}
+.circle{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: red;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    position: relative;
+    left: 46px;
+    top: 12px;
+    z-index: 10;
+
+}
+.section1{
+    width: 100%;
+    height: 85vh;
+}
+.section1 img{
+    width: 100%;
+    height: 85vh;
+}
+.section2{
+    width: 100%;
+    height: 85vh;
+    background-color: whitesmoke;
+}
+.detail{
+    width: 23%;
+    height: 520px;
+    left: 1000px;
+    top: 60px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 5px black;
+    background-color: white;
+}
+.detail1{
+    width: 80%;
+    position: relative;
+    left: 35px;
+    height: 120px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+.detail1 img{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 25px;
+}
+.detail1 h1{
+    position: relative;
+    display: inline-block;
+    left: 20px;
+}
+.detail1 p{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 70px;
+    text-transform: capitalize;
+}
+.detail2{
+    width: 80%;
+    position: relative;
+    left: 35px;
+    height: 120px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+.detail2 img{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 25px;
+}
+.detail2 h1{
+    position: relative;
+    display: inline-block;
+    left: 20px;
+}
+.detail2 p{
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    bottom: 40px;
+    text-transform: capitalize;
+}
+.detail3{
+    width: 80%;
+    position: relative;
+    left: 35px;
+    height: 120px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+.detail3 img{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 25px;
+}
+.detail3 h1{
+    position: relative;
+    display: inline-block;
+    left: 20px;
+}
+.detail3 p{
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 90px;
+    text-transform: capitalize;
+}
+.detail4{
+    width: 80%;
+    position: relative;
+    left: 35px;
+    height: 120px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+.detail4 img{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 25px;
+}
+.detail4 h1{
+    position: relative;
+    display: inline-block;
+    left: 20px;
+}
+.detail4 p{
+    display: inline-block;
+    position: relative;
+    left:70px ;
+    bottom: 40px;
+    text-transform: capitalize;
+}
+.view{
+    position: relative;
+    bottom: 400px;
+    width: 40%;
+    height: 500px;
+    border: 1px solid black;
+}
