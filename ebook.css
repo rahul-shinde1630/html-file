@@ -1,0 +1,715 @@
+body{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+    display: inline-block; 
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    text-transform: capitalize;
+    padding:1px 20px 1px ;
+    font-size: 20px;
+}
+a:hover{
+    color: red;
+}
+li{
+    display: inline-block;
+    color: white;
+ 
+}
+.navbar h1{
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    left: 60px;
+    color: white;
+}
+.navbar{
+    /* border: 1px solid black; */
+    width: 100%;
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+    background-color:  rgba(66, 61, 61, 0.763); 
+}
+.nav{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    margin-left: 450px;
+}
+.download{
+   padding: 15px 50px;
+   position: relative;
+   left: 20px;
+   bottom: 5px;
+   border-radius: 25px;
+   color: rgb(234, 211, 211);
+   border-color: red;
+   background-color: red;
+}
+.download:hover{
+    background:white;
+    color: red;
+    
+}
+#book{
+    font-size: 80px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+    color: rgba(240, 90, 64, 0.952);
+}
+#book:hover{
+    color: #f11414;
+}
+img{
+    width: 100%;
+    height: 690px;
+
+}
+.container img{
+    border-bottom-right-radius: 500px;
+
+}
+.container h2{
+    position: absolute;
+    top: 320px;
+    left: 60px;
+    color: rgb(19, 16, 15);
+    font-size: 30px;
+}
+.container h1{
+    position: absolute;
+    top: 325px;
+    left: 60px;
+    font-size: 60px;
+    color: rgb(225, 72, 6);
+}
+.container h3{
+    position: absolute;
+    top: 350px;
+    left: 60px;
+    font-size: 65px;
+    color: rgb(225, 72, 6);
+}
+.container button{
+    position: absolute;
+    bottom: 180px;
+    left: 60px;
+    padding: 15px 50px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background: rgba(234, 93, 68, 0.952);
+}
+.container button:hover{
+    background:rgb(250, 3, 3);
+    
+}
+.container h4{
+    position: absolute;
+    top: 480px;
+    left: 300px;
+    /* bottom: 750px; */
+    /* left: 268px; */
+    font-size: 25px;
+    color: rgb(10, 8, 8);
+}
+.container h4:hover{
+color: rgb(237, 65, 22);
+text-decoration:underline;
+}
+.png{
+    border: 18px solid black;
+    border-radius: 35px;
+    background: #935bcf;
+    position: absolute;
+    bottom: 10px;
+    width: 30%;
+    right: 80px;
+    height: 550px;
+}
+.png p{
+    position: relative;
+    font-size: 15px;
+    top: 30px;
+    color: white;
+    text-align: center;
+
+}
+.png pre{
+    font-size: 40px;
+    bottom: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+#book2{
+    font-size: 150px;
+    position: relative;
+    left: 150px;
+    color: rgba(240, 90, 64, 0.952);
+}
+#book2:hover{
+    color: #f91702;
+}
+.reviews{
+    /* border: 1px solid black; */
+    position: absolute;
+    border-radius: 10px;
+    bottom: -60px;
+    width: 61.6%;
+    background: rgb(244, 117, 75);
+    height: 160px;
+}
+.photos{
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+.photos:hover{
+    width: 62px;
+    height: 62px;
+    z-index: 10;
+}
+.p1{
+    background-image: url(carton.jpg);
+    background-size: cover;
+
+}
+.p2{
+    background-image: url(carton1.jpg);
+    background-size: cover;
+
+}
+.p3{
+    background-image: url(carton.jpg);
+    background-size: cover;
+
+}
+.p4{
+    background-image: url(carton1.jpg);
+    background-size: cover;
+
+}
+.star{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.star p{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+}
+.star pre{
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.theBook{
+    width: 100%;
+    height: 800px;
+    background:white;
+}
+.discription{
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    left: 660px;
+    width: 50%;
+    height: 500px;
+   
+}
+.chapters{
+    width: 70%;
+    height: 540px;
+    display: inline-block;
+    position: relative;
+    /* top: 50px; */
+    right: 600px;
+    bottom: 430px;
+    /* background-image: url(ipad.jpeg); */
+    /* background-size: cover;. */
+    /* background-repeat: no-repeat; */
+} 
+.chapters img{
+    width: 100%;
+    height:540px ;
+}  
+.discription h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    bottom: 80px;
+    color: rgb(244, 89, 11);
+    
+}
+.discription h1{
+    text-transform: capitalize;
+    position: relative;
+    bottom: 40px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.discription p{
+    position: relative;
+    bottom: 50px;
+    font-size: large;
+    font-weight: 400;
+}
+.information{
+    width: 100%;
+    height: 680px;
+    background: whitesmoke;
+}
+.books{
+    width: 35%;
+    height: 700px;
+    position: relative;
+    background-image: url(mobail.jpeg);
+    background-size: cover;
+    bottom: 200px;
+}
+.information h2{
+    color: rgb(244, 89, 11);
+    font-size: 30px;
+    text-align: center;
+}
+.information h1{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.introduction{
+    position: relative;
+    width: 55%;
+    height: 300px;
+    left: 560px;
+    bottom: 740px;
+}
+.introduction h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+.introduction p{
+    font-size: 20px;
+    font-weight: 450;
+}
+.chapter1{
+    border: 1px solid rgb(248, 241, 241);
+    bottom: 800px;
+    position: relative;
+    border-radius: 15px;
+    width: 55%;
+    height: 200px;
+
+    background: rgb(213, 213, 241);
+    left: 560px;
+}
+.chapter1 h4{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    color: rgba(248, 84, 43, 0.947);
+}
+.chapter1 p{
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    
+    
+}
+.chapter2{
+   width: 100%;
+   font-size: 40px;
+   position: relative;
+   bottom: 60px;
+}
+.chapter3{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    font-size: 30px;
+}
+.chapter3 h5{
+    text-align: center;
+    font-size: 30px;
+}
+.image{
+    width: 30%;
+    height: 350px;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: url(book.jpg.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    margin: 10px;
+}
+.image1{
+    width: 30%;
+    height: 350px;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: url(wright.jpeg);
+    background-size: cover;
+    border: 1px solid black;
+    margin: 10px;
+}
+.chapter4{
+    width: 100%;
+    height: 600px;
+}
+.chapter4 h1{
+    position: relative;
+    left: 40px;
+    font-size: 30px;
+}
+.chapter4 p{
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+}
+.chapter4a{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    background-image: url(mobail.jpeg);
+    background-size: cover;
+    width: 35%;
+    height: 600px;
+}
+.chapter4b{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    left: 150px;
+    bottom: 200px;
+
+}
+.chapter5{
+    width: 100%;
+    height: 600px;
+    background: whitesmoke;
+}
+.circale1{
+    position: relative;
+    border: 1px solid white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #f34506;
+}
+.circale2{
+    position: absolute;
+    border: 5px solid rgb(240, 62, 62);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(carton.jpg);
+    background-size: cover;
+    left: 300px;
+}
+.circale3{
+    position: relative;
+    border: 1px solid white;
+    width: 150px;
+    top: 320px;
+    right: 40px;
+    height: 150px;
+    border-radius: 50%;
+    background: #f34506;
+
+}
+.chapter5a{
+    width: 50%;
+    height: 400px;
+    position: relative;
+    left: 700px;
+}
+.chapter5a h1{
+    color: rgb(248, 54, 28);
+ }
+.chapter5a h2{
+    color: rgb(1, 1, 1);
+    position: relative;
+    bottom: 20px;
+    font-size: 40px;
+}
+.chapter5a p{
+    position: relative;
+    font-size: 20px;
+    bottom: 40px;
+    font-weight: 400;
+    font-family:sans-serif;
+}
+.chapter6{
+    width: 100%;
+    height: 600px;
+    position: relative;
+   
+}
+.chapter6 h1{
+    text-align: center;
+    color: rgba(245, 24, 20, 0.963);
+}
+.chapter6 h2{
+    text-align: center;
+    position: relative;
+    font-size: 45px;
+    font-weight: 600;
+    bottom: 40px;
+}
+.reviews1{
+    width: 27%;
+    height: 400px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: url(wright.jpeg);
+    background-size: cover;
+    border: 1px solid black;
+    position: relative;
+    left: 120px;
+}
+.reviews2{
+    width: 27%;
+    height: 400px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: url(wright.jpeg);
+    background-size: cover;
+    border: 1px solid black;
+    position: relative;
+    left: 130px;
+}
+.reviews3{
+    width: 27%;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    background-image: url(wright.jpeg);
+    background-size: cover;
+    border: 1px solid black;
+    position: relative;
+    left: 140px;
+}
+.reviews1 h1{
+    font-size: 40px;
+    color: rgb(17, 16, 16);
+    position: relative;
+    display: inline-block;
+    top: 100px;
+
+
+
+}
+.reviews2 h1{
+    font-size: 40px;
+    color: rgb(17, 16, 16);
+    position: relative;
+    top: 100px;
+
+    display: inline-block;
+}
+.reviews1 i{
+    color: rgb(244, 117, 82);
+    position: relative;
+    top: 100px;
+}
+.reviews2 i{
+    color: rgb(244, 117, 82);
+    position: relative;
+    top: 100px;
+}
+.reviews3 i{
+    color: rgb(244, 117, 82);
+    position: relative;
+    top: 100px;
+}
+.reviews3 h1{
+    font-size: 40px;
+    color: rgb(17, 16, 16);
+    position: relative;
+    top: 100px;
+    display: inline-block;
+}
+.reviews1 p{
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    color: black;
+}
+.reviews2 p{
+    font-size: 20px;
+    top: 100px;
+
+    position: relative;
+    color: black;
+}
+.reviews3 p{
+    font-size: 20px;
+    top: 100px;
+
+    position: relative;
+    color: black;
+}
+.chapter7{
+    width: 100%;
+    height: 640px;
+    background: #f78068;
+    border-radius: 600px 0px 0px 0px ;
+}
+.chapter7a{
+    width: 40%;
+    top: 80px;
+    height: 400px;
+    position: relative;
+    left: 700px;
+}
+.chapter7a h2{
+    color: rgb(253, 22, 5);
+    font-size: 30px;
+}
+.chapter7a h1{
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+
+}
+.chapter7a h3{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    bottom: 40px;
+
+}
+
+.chapter7a pre{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    bottom: 40px;
+    
+}
+.photos1{
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url(carton.jpg);
+    background-size: cover;
+}
+.photos2{
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url(photo.jpeg);
+    background-size: cover;
+}
+.photos3{
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url(book.jpeg);
+    background-size: cover;
+}
+.from{
+    width: 30%;
+    height: 400px;
+    position: relative;
+    background: white;
+    padding: 25px;
+    bottom: 300px;
+    border-radius: 20px;
+    left: 100px;
+    box-shadow: 2px 2px 10px gray;
+}
+.from{
+    font-size: 30px;
+    text-align: center;
+}
+input{
+    padding: 15px ;
+    border-radius: 20px;
+    border: 1px solid orange;
+}
+input:focus{
+ outline-color: orangered;
+}
+input[type="submit"]{
+    padding: 10px 50px ;
+    border-radius: 40px;
+    background: orangered;
+    color: white;
+}
+input[type="submit"]:hover{
+    color: black;
+    background-color: red;
+
+}
+.social{
+    position: relative;
+    width:30%;
+    bottom: 500px;
+    left: 700px;
+}
+.social h1{
+    color: rgb(255, 0, 68);
+    font-size: 40px;
+}
+.social i{
+    margin-left: 40px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+}
+.social i:hover{
+    background-color: orangered;
+}
+.social h2{
+    color: white;
+}
+.social h3{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.social span{
+    color: orangered;
+    font-size: 45px;
+}
