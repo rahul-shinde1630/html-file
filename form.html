@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1> registration form    </h1>
+    <div class="box">
+    <form class="form1">
+        <label> student Name:</label><input type="text" placeholder="Enter your name"><br><br>
+        <label>DOB:</label><input type="date" placeholder="enter your date of birth"><br><br>
+        <label> G-mail address:</label><input type="text" placeholder="Enter your G-mail address"><br><br>
+        <label>Phone no:</label><input type="text" placeholder="Enter your Phone no"><br><br>
+        <label>address:</label>
+                            <input type="text" list="data" placeholder="search city">
+                                <datalist id="data">
+                                <option  disabled selected>select city</option>
+                                <option value="Sangola" >Sangola</option>
+                                <option  value="pandharpur">pandharpur</option>
+                                <option  value="malshiras">malshiras</option>
+                                <option  value="maglveda">maglveda</option>
+                                <option value="akola">akola</option>
+                                <option value="mohal">mohal</option>
+                                <option  value="jat">jat</option>
+                                <option  value="Miraj">Miraj</option>
+                            </datalist>
+                            
+                            <input type="text" list="data1" placeholder="search District">
+                                <datalist id="data1">
+                                  
+                                <option  disabled selected>select District</option>
+                                <option  value="Solapur">Solapur</option>
+                                <option  value="kolahapur">kolahapur</option>
+                                <option value="pune">pune</option>
+                                <option value="nashik">nashik</option>
+                                <option  value="nagpur">nagpur</option>
+                                <option value="mumbai" >mumbai</option>
+                                <option value="sangli" >sangli</option>
+                                <option value="barshi" >barshi</option>
+                                </datalist>
+                            <br><br>
+         <label>Gender:</label><input type="radio" value="male" name="m">male
+                                <input type="radio" value="female" name="m">Female  
+                                <br><br>
+                                <label>Branchs:-</label><br>
+                                <input type="checkbox"> ECS<br>
+                                <input type="checkbox"> BCA<br>
+                                <input type="checkbox"> BA<br>
+                                <input type="checkbox"> BSc. Plan <br><br>
+                                <textarea placeholder="Description here..." rows="3" cols="40"></textarea>            
+                              <h2 style="margin-left: 160px; ">  <input type="submit">
+                            <input type="reset"></h2>
+    </form>
+</div>
+</body>
+</html>
